@@ -12,7 +12,8 @@ gem "rake"#, "~> 0.9.3"
 gem "jquery-rails", '1.0.9'
 gem "abstract", "1.0.0"
 gem "xmpp4r"
-gem "puma", '< 2.7.0'  # 2.7.[01] breaks compatibility with ruby 1.8.7
+#gem "puma", '< 2.7.0'  # 2.7.[01] breaks compatibility with ruby 1.8.7
+gem "thin"
 
 group :development do
   gem "rcov", '0.9.9', :platforms => [:ruby_18]
