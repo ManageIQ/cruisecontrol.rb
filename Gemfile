@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gemspec
+
 gem "rails", "3.2.16"
 gem "tzinfo"#, "0.3.27"
 gem "rack"#, "1.2.3"

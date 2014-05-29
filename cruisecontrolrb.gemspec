@@ -14,14 +14,14 @@ Gem::Specification.new do |s|
   s.homepage = 'http://cruisecontrolrb.thoughtworks.com'
   s.has_rdoc = false
 
-  [ [ "rails", "3.0.7" ],
-    [ "tzinfo", "0.3.27" ],
-    [ "rack", "1.2.3" ],
+  [ [ "rails", nil ],
+    [ "tzinfo", nil ],
+    [ "rack", nil ],
     [ "bundler", nil ],
     [ "httparty", "0.6.1" ],
     [ "api_cache", "0.2.0" ],
     [ "xml-simple", '1.0.16' ],
-    [ "rake", "0.8.7" ],
+    [ "rake", nil ],
     [ "jquery-rails", '1.0.9' ],
     [ "abstract", "1.0.0" ],
   ].each do |gem, version|
