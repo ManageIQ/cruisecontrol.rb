@@ -200,6 +200,7 @@ a:hover {
   .build_color (@color) {
       border: 2px solid @color;
 
+      .upper { background: @color; }
       .lower { background: @color; }
   }
 
@@ -254,6 +255,9 @@ a:hover {
     .builder_status  {
       bottom: 2px;
       left: 28px;
+
+      a.success { background-color: @success-color; }
+      a.failed  { background-color: @failure-color; }
     }
 
     .project_status  {
@@ -439,6 +443,9 @@ button[disabled="disabled"], button[disabled="disabled"]:hover, button[disabled=
           color: @cruise-blue;
           border-right: 1px solid #bbb;
 
+          &.success { background-color: @success-color; }
+          &.failed  { background-color: @failure-color; }
+
           &:hover {
             text-decoration: none;
             background-color: lighten(#ccc, 10%);
@@ -452,6 +459,9 @@ button[disabled="disabled"], button[disabled="disabled"]:hover, button[disabled=
           border-right: 0;
           color: @cruise-dark-blue;
           font-weight: bold;
+
+          &.success { background-color: lighten(@success-color, 20%); }
+          &.failed  { background-color: lighten(@failure-color, 20%); }
         }
         
         div.coverage_icon {
