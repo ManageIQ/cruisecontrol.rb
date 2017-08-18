@@ -1,3 +1,8 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+
+
 * HEAD
   - Upgrade to using Ruby on Rails 3.0 and Rack 1.2.
   - Complete UI refresh.
